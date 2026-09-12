@@ -1,6 +1,7 @@
 # AppiumTask — Mobile Automation Tests (iOS)
 
-This repository contains a small Appium-based test automation project (Java + Maven) focused on iOS (IOSDriverFactory). It includes page objects, utilities, and a sample test for Wikipedia.
+This repository contains a small Appium-based test automation project (Java + Maven)focused on iOS (IOSDriverFactory). It includes page objects, utilities, and a sample test for Wikipedia.
+Video link: https://drive.google.com/file/d/1YmGCS6U8g_pNcNXyOBHYcLLoMI4wPPej/view?usp=sharing
 
 ## Features
 - Page Object Model for cleaner tests
@@ -19,7 +20,7 @@ This repository contains a small Appium-based test automation project (Java + Ma
 2. Open or navigate to the project root where `pom.xml` is located.
 3. Update configuration: edit `test/resources/config.properties` to set device, platformVersion, app/package/activity or other required keys.
 4. Start Appium server and connect IOS device. (your device UDID and ORGnaation ID is required )
-5. Enter your
+
 
 ## Running tests
 - Run the whole test suite:
@@ -28,11 +29,8 @@ This repository contains a small Appium-based test automation project (Java + Ma
 - Run a single test class by name (example):
   mvn -Dtest=WikipediaTest test
 
-- Use Maven profiles or system properties to pass additional parameters (if added in pom.xml or test harness).
 
 ## Project structure (important files)
-
-A concise tree of the repository's key files:
 
 - pom.xml — Maven build file
 - src/
@@ -69,13 +67,7 @@ A short checklist of planned improvements and tasks. Mark items done as they are
 - [ ] Add Report -  automated screenshots/video capture on test failure
 - [ ] GitHub Actions
 
-If you'd like, I can implement any of these now (CI, Android driver, or video embedding).
 
-
-2) Upload the video as a GitHub release asset, or attach it to a PR/comment and link to it. Then embed or link using a normal Markdown link:
-
-```markdown
-[Watch demo video](https://github.com/OWNER/REPO/releases/download/v1.0/your-video.mp4)
 ```
 
 
