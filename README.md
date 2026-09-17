@@ -10,7 +10,7 @@ Video link: https://drive.google.com/file/d/1YmGCS6U8g_pNcNXyOBHYcLLoMI4wPPej/vi
 - Example test: test/java/wiki/WikipediaTest.java
 
 ## Prerequisites
-- Java JDK 8+ (11 recommended)
+- Java JDK 25 recommended
 - Maven
 - Appium server installed and running
 - Xcode and device Real device (for iOS tests)
@@ -65,7 +65,7 @@ A short checklist of planned improvements and tasks. Mark items done as they are
 
 - [ ] Add Android support (AndroidDriverFactory, device capability matrix)
 - [ ] Edit Driver Manager to handle Android 
-- [ ] Add Report -  automated screenshots/video capture on test failure
+- [X] Add Report - 
 - [ ] GitHub Actions
 
 
