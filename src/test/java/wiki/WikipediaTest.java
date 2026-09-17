@@ -1,5 +1,6 @@
 package wiki;
 
+import io.qameta.allure.*;
 import org.testng.annotations.Test;
 import pages.ArticlePage;
 import pages.HomePage;
@@ -7,6 +8,8 @@ import pages.ReadingListPage;
 import pages.SearchPage;
 import templates.TestScenario;
 
+@Epic("Wikipedia iOS App")
+@Feature("Reading Lists")
 public class WikipediaTest extends TestScenario {
 
     //Variables
@@ -25,6 +28,11 @@ public class WikipediaTest extends TestScenario {
      * 8. Search for the new created reading list
      * 9. Verify that the saved article is displayed in the Reading List.
      */
+
+    @Story("Save article to a new Reading List")
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Searches for an article, saves it into a newly created reading list, "
+            + "and verifies it appears there. Cleans up by deleting the list afterward.")
 
 
     @Test
