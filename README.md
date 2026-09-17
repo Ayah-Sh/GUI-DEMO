@@ -65,8 +65,8 @@ A short checklist of planned improvements and tasks. Mark items done as they are
 
 - [ ] Add Android support (AndroidDriverFactory, device capability matrix)
 - [ ] Edit Driver Manager to handle Android 
-- [ ] Add Report -  automated screenshots/video capture on test failure
-- [X] GitHub Actions
+- [X] Add Report -  Allure
+- [] GitHub Actions
 
 
 ```
